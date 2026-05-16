@@ -228,7 +228,6 @@ button, a {
 	display: flex;
 	gap: 16px;
 	justify-content: space-between;
-	overflow: hidden;
 }
 
 .info_content_img {
@@ -415,6 +414,12 @@ button, a {
 .participants {
 	padding: 100px 72px 140px;
 	position: relative;
+	transition: all 1s;
+	opacity: 0;
+}
+
+.participants.a {
+	opacity: 1;
 }
 
 .participants_title {
@@ -725,6 +730,7 @@ button, a {
 		flex-direction: column;
 		margin-left: 0;
 		gap: 5px;
+		overflow: hidden;
 	}
 
 	.info_content_img {
