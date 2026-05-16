@@ -115,7 +115,7 @@ const animationObserver = new IntersectionObserver((entries) => {
 	});
 }, {threshold: .2});
 
-document.querySelectorAll('.info_header, .info_content_img, .info_content_main, .stages').forEach(item => {
+document.querySelectorAll('.info_header, .info_content_img, .info_content_main, .stages, .participants').forEach(item => {
 	animationObserver.observe(item);
 });
 
