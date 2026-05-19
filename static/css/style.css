@@ -228,6 +228,7 @@ button, a {
 	display: flex;
 	gap: 16px;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
 .info_content_img {
